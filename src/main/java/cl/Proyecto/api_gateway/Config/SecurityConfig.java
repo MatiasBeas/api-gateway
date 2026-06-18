@@ -1,4 +1,4 @@
-package cl.Proyecto.api_gateway;
+package cl.Proyecto.api_gateway.Config;
 
 import cl.Proyecto.api_gateway.security.JwtAuthFilter;
 import cl.Proyecto.api_gateway.security.UserDetailsServiceImpl;
