@@ -26,6 +26,9 @@ public class SwaggerConfig {
                 .GET("/v3/api-docs/staffv2",    req -> proxyDocs("http://localhost:8182/v3/api-docs"))
                 .GET("/v3/api-docs/bono",       req -> proxyDocs("http://localhost:8185/v3/api-docs"))
                 .GET("/v3/api-docs/cita",       req -> proxyDocs("http://localhost:8183/v3/api-docs"))
+                .GET("/v3/api-docs/Hospitalizacion", req -> proxyDocs("http://localhost:8282/v3/api-docs"))
+                .GET("/v3/api-docs/Receta-medica", req -> proxyDocs("http://localhost:8283/v3/api-docs"))
+
                 .build();
     }
 
